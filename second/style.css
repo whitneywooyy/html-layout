@@ -1,0 +1,44 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+	background-color: #50e3c2;
+}
+.column.one {
+	background-color: #4a90e2;
+	width: 33.33%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.column.two {
+	background-color: #b8e986;
+	width: 33.33%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: relative;
+}
+.image {
+	background-color: #d0021b;
+	color: white;
+	height: 200px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.image h1 {
+	margin: 0;
+	padding-top: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
